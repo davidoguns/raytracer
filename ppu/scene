@@ -1,0 +1,47 @@
+desc
+{
+	3	#number of objects
+	1	#number of lights
+}
+
+camera
+{
+position	0 4.5 0			#position vector
+lookat 		0 0 0			#look at vector
+upvector 	0 1 0			#up vector
+projection	45.0 1.0 1000.0		# FOV, nearZ, farZ
+}
+
+pointlight
+{
+position	1 8 1			#position
+diffuse		1.0 1.0 1.0		#color
+}
+
+sphere
+{
+name		sphere1
+position	0 -5 -6			#center
+radius		1.15			#radius
+diffuse		1.0 0.0 0.0		#diffuse color
+}
+
+sphere
+{
+name		sphere2
+position	-1.25 3.75 -7.25	#center
+radius		1			#radius
+diffuse		0.0 0.0 1.0f
+}
+
+polygon
+{
+name		polygon1
+point	7 0 0			# corners
+point	7 0 -100		#
+point	-15 0 -100
+point	-15 0 0
+diffuse .5 .5 .5
+}
+
+# end of file
