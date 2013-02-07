@@ -65,5 +65,7 @@ int write_image(const char *filename, unsigned int *buffer,
 	/* free space */
 	ppm_freearray(output_buffer, height);
 
+	fclose(fp);
+
 	return 1;
 }
