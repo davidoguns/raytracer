@@ -9,8 +9,8 @@
  */
 
 #include <stdlib.h>
-#include <pam.h>
-#include <ppm.h>
+#include <netpbm/pam.h>
+#include <netpbm/ppm.h>
 #include <stdio.h>
 
 #include "output.h"
